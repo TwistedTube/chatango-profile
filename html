@@ -1,0 +1,490 @@
+<!--- Hide ads --->
+
+<style> 
+.logo_div, .fpix_header, .topad, .fpix_asl_table, .profile_text,
+.nc_profile, #left_container, #profilephoto, #flash_close_butt,
+#start_chat_but, .uppermenu, #buyers_ad, #flashcontent, .yellow_but,
+.bottombar, .byline, .top-links { visibility: hidden !important; display: none !important;}
+</style>
+
+<!--- Title --->
+
+<script language=javascipt>
+document.title=("TwistedTube's Kingdom")
+</script>
+
+<!--- Disable right click --->
+
+<script>
+var message="You can try touching me when we're alone~";
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return False;
+}
+}
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("alert(message);return false")
+</script>
+
+<!--- Music --->
+<!-- Music -->
+<div id="player"> <div id="musicplayer"> <div id="woop">
+<table cellspacing"" cellpadding="0"> <tr><td>
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('playlist').innerHTML;" style="cursor:pointer; color:#32CD32" title="[Playlist]">
+<img src="http://media.tumblr.com/tumblr_m9c42oP5ds1rto88t.gif"></td><td>
+<p align="left">
+<audio controls autoplay loop style="height: 25px;width:100px;">
+<source src="https://www.dropbox.com/s/okl4cmxhok189yj/Rchetype%20-%20V%20is%20For_4893909_soundcloud.mp3?dl=1" type="audio/mpeg">
+</audio>
+</td></tr></table>
+</div></div></div>
+
+<br/>
+
+
+<!--- Tabs: Home --->
+
+<script>
+function changeNavigation(id)
+{document.getElementById("home").innterHTML=document.getElementById(id).innterHTML}
+</script>
+
+<!--- Design --->
+
+<style type="text/css">
+a:link {color: #FFFFFF;text-decoration:underline;}
+a:visited, a:hover, a:active {color: #FFFFFF;}
+
+audio {
+    background-color: #c2284a;
+}
+
+body {
+  background-image:
+url("https://media.giphy.com/media/26FmS8aQax7WP5YkM/giphy.gif")!important;
+  background-repeat: no-repeat!important;
+  background-attachment: fixed!important;
+  background-position: 100% 100%;!important;
+  background-size: 40%!important;
+  background-color: #021a28;
+  font-family: arial;
+  font-size: 15px;
+  color: #202020;
+}
+
+.wrapper {
+  position: fixed;
+  margin-top: 120px;
+  margin-left: 165px;
+  width: 624px;
+  height: 384px;
+  overflow: hidden;
+}
+
+.title {
+  font-family: Calibri;
+  font-size: 18px;
+  color: #202020;
+  border-bottom: solid 1px #000000;
+  text-align: center;
+}
+
+.box {
+  border: solid 3px #505151;
+  text-align: center;
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  background: #505151;
+  -moz-border-radius-topleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-topright: 20px;
+  -webkit-border-top-right-radius: 20px;
+  border-top-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.navigate {
+  text-align: center;
+  position: absolute;
+  left: 250px;
+  top: 240px;
+  width: 406px;
+  height: 30px;
+  padding: 15px;
+  background: #3a3a3a;
+}
+
+.box b, strong {}
+.box i, em {}
+.box a {color: #000000;}
+.box a:hover {color: #202020;}
+
+#sidebar {
+  background-color: #04B4AE;
+  width: 100%;
+  height: 52px;
+  position: fixed;
+  top: 0px;
+}
+
+#logo {
+  max-width: 50px;
+}
+
+.navi {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 420px;
+  height-margin: 250px;
+}
+
+#navbar-iframe {
+  display: none;
+  visibility: hidden;
+  height: 0px;
+}
+
+.friend {
+  width: 40px;
+  height: 40px;
+  background-color: #32CD32;
+  padding: 2px;
+  margin: 5px;
+}
+
+.friend:hover {
+  opacity: 0.6;
+  border-radius: 30px;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-trasnition: all 0.8s ease-out;
+  trasnition: all 0.8s ease-out;
+}
+
+.love {
+  width: 40px;
+  height: 40px;
+  background-color: #f172a1;
+  padding: 2px;
+  margin: 5px;
+}
+
+.love:hover {
+  opacity: 0.6;
+  border-radius: 30px;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-trasnition: all 0.8s ease-out;
+  trasnition: all 0.8s ease-out;
+}
+
+#musicplayer {
+  width: 24px;
+  height: 72px;
+  margin-top: 3px;
+  margin-left: 3px;
+  overflow: hidden;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+ 
+#player {
+  position: fixed;
+  top: 7px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  z-index: 9999;
+  background-color: #c2284a;
+  border: 3px solid #202020;
+  border-radius: 31px;
+  opacity: 19;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+
+ 
+#woop {
+  height: 26px;
+  margin-top: 2px;
+}
+ 
+#woop img {
+  margin-right: 8px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+ 
+#woop embed, #woop {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+ 
+#player:hover {
+  opacity: 2;
+  width: 174px;
+}
+ 
+#player:hover #musicplayer {
+  width: 200px;
+}
+ 
+#player:hover #woop {
+  margin-right: -50px;
+}
+ 
+</style>
+
+<!--- Tab align --->
+
+<div class="navigate">
+<div class="navi">
+
+<!--- Tab 1 --->
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('one').innerHTML;" style="cursor:pointer; color:#32CD32" title="[About me]">
+<img src="http://i64.tinypic.com/f19pjt.png" width="60px">
+</span>
+<img src="https://i.gyazo.com/ce1c1a37feceb3e00fe655e1565ce58c.png">
+
+<!--- Tab 2 --->
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('two').innerHTML;" style="cursor:pointer; color:#32CD32" title="[Friends]">
+<img src="http://i65.tinypic.com/1zxxqgh.png" width="60px">
+</span>
+<img src="https://i.gyazo.com/ce1c1a37feceb3e00fe655e1565ce58c.png">
+
+<!--- Tab 3 --->
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('three').innerHTML;" style="cursor:pointer; color:#32CD32" title="[Information]">
+<img src="http://i65.tinypic.com/28k7ash.png" width="60px">
+</span>
+<img src="https://i.gyazo.com/ce1c1a37feceb3e00fe655e1565ce58c.png">
+
+<!--- Tab 4 --->
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('four').innerHTML;" style="cursor:pointer; color:#32CD32" title="[Dancing]">
+<img src="http://i68.tinypic.com/1ya93s.png" width="60px">
+</span>
+
+<!--- Close tab aligns --->
+
+</div>
+</div>
+
+<!--- Box --->
+
+<!--- playlist --->
+
+<div id="playlist" style="display:none">
+<div class="title">Current Playlist </div><br>
+
+<font face="Courier New">
+<font>
+<a href="https://youtu.be/aqffg76EYRs" target="_blank" title="V is for"><b>V is for</b></a> - <i>by Rchetype</i>
+<font face="Arial">
+ 
+ 
+</div>
+
+<div class="box">
+ 
+<!-- Tab: Home -->
+
+<div id="home">
+<div class="title"><i>Welcome to my profile \o/</i></div>
+
+<center>
+<br/><br/>
+<b>Use the navigation buttons above!</b>
+</center>
+</div>
+
+<!--- Tab: About [1] --->
+
+<div id="one" style="display:none">
+<div class="title"><i>About</i></div>
+
+<center>
+<br>
+Hiya! My name is Alex.
+<br>
+I'm also known as the person with no shame and you may have already seen a few pictures of me and some stupid things I do.<br>
+I consider myself to be quite different from your everyday guy, call me weird or whatever you want to call me.<br/>
+I'm open as well as being considerate towards others, if there is anything that's on your mind feel free to hit me up.
+</center>
+</div>
+
+<!--- Tab: Friends [2] Page (1) --->
+
+<div id="two" style="display:none">
+<div class="title"><i>Friends</i></div>
+
+<center>
+<br/>
+<a href="http://connorstollornah.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/c/o/connorstollornah/thumb.jpg" class="friend" title="Connorstollornah"></a>
+
+<a href="http://cetearyl.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/c/e/cetearyl/thumb.jpg" class="friend" title="Cetearyl"></a>
+
+<a href="http://face.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/f/a/face/thumb.jpg" class="friend" title="Face"></a>
+
+<a href="http://kinmoo.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/i/kinmoo/thumb.jpg" class="friend" title="Kinmoo"></a>
+
+<a href="http://kashtastic.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/a/kashtastic/thumb.jpg" class="friend" title="Kashtastic"></a>
+
+<a href="http://eradicator.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/e/r/eradicator/thumb.jpg" class="friend" title="Eradicator"></a>
+
+<br/>
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('two').innerHTML;" style="cursor:pointer; color:#c2284a" title="[Back]"><img src="http://i65.tinypic.com/2afh6s4.png" width="20px">
+</span>
+
+<a href="http://aveq.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/a/v/aveq/thumb.jpg" class="friend" title="Aveq"></a>
+
+<a href="http://eemmyyy.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/e/e/eemmyyy/thumb.jpg" class="friend" title="Eemmyyy"></a>
+
+<a href="http://gugusama.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/g/u/gugusama/thumb.jpg" class="friend" title="Gugusama"></a>
+
+<a href="http://kitty13meow.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/i/kitty13meow/thumb.jpg" class="friend" title="Kitty13meow"></a>
+
+<a href="http://ourlordandsavormrmuf.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/o/u/ourlordandsavormrmuf/thumb.jpg" class="friend" title="Ourlordandsavormrmuf"></a>
+
+<a href="http://kwfreeman.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/w/kwfreeman/thumb.jpg" class="friend" title="Kwfreeman"></a>
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('twox').innerHTML;" style="cursor:pointer; color:#c2284a" title="[Next]"><img src="http://i67.tinypic.com/10fdwk7.png" width="20px">
+</span>
+
+<a href="http://littlezmey.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/l/i/littlezmey/thumb.jpg" class="friend" title="Littlezmey"></a>
+
+<a href="http://winkelwagen.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/w/i/winkelwagen/thumb.jpg" class="friend" title="Winkelwagen"></a>
+
+<a href="http://kany.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/a/kany/thumb.jpg" class="friend" title="Kany"></a>
+
+<a href="http://kelakk.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/e/kelakk/thumb.jpg" class="friend" title="Kelakk"></a>
+
+<a href="http://hypelx.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg//h/y/hypelx/thumb.jpg" class="friend" title="Hypelx"></a>
+
+<a href="http://restore.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/r/e/restore/thumb.jpg" class="friend" title="Restore"></a>
+
+</center>
+
+</div>
+
+<!--- Tab: Friends [2] Page (2) --->
+
+<div id="twox" style="display:none">
+<div class="title"><i>Friends</i></div>
+
+<center>
+<br/>
+<a href="http://eclaria.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/e/c/eclaria/thumb.jpg" class="friend" title="Eclaria"></a>
+
+<a href="http://chiaki.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/c/h/chiaki/thumb.jpg" class="friend" title="Chiaki"></a>
+
+<a href="http://anchan14.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/a/n/anchan14/thumb.jpg" class="friend" title="Anchan14"></a>
+
+<a href="http://jadeee2701.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/j/a/jadeee2701/thumb.jpg" class="friend" title="Jadeee2701"></a>
+
+<a href="http://vixxiv.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/v/i/vixxiv/thumb.jpg" class="friend" title="Vixxiv"></a>
+
+<a href="http://retokyo.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/r/e/retokyo/thumb.jpg" class="friend" title="Retokyo"></a>
+
+<br/>
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('two').innerHTML;" style="cursor:pointer; color:#c2284a" title="[Back]"><img src="http://i65.tinypic.com/2afh6s4.png" width="20px">
+</span>
+
+<a href="http://warheit7.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/w/a/warheit7/thumb.jpg" class="friend" title="Warheit7"></a>
+
+<a href="http://hmdf.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/h/m/hmdf/thumb.jpg" class="friend" title="Hmdf"></a>
+
+<a href="http://pinkwonder.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/p/i/pinkwonder/thumb.jpg" class="friend" title="Pinkwonder"></a>
+
+<a href="http://njnutty.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/n/j/njnutty/thumb.jpg" class="friend" title="Njnutty"></a>
+
+<a href="http://detectivebow.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/d/e/detectivebow/thumb.jpg" class="friend" title="Detectivebow"></a>
+
+<a href="http://admire.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/a/d/admire/thumb.jpg" class="friend" title="Admire"></a>
+
+<span onclick="document.getElementById('home').innerHTML=document.getElementById('twox').innerHTML;" style="cursor:pointer; color:#c2284a" title="[Next]"><img src="http://i67.tinypic.com/10fdwk7.png" width="20px">
+</span>
+
+<a href="http://petsme.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/p/e/petsme/thumb.jpg" class="friend" title="Petsme"></a>
+
+<a href="http://kimberlysamlina.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/k/i/kimberlysamlina/thumb.jpg" class="friend" title="Kimberlysamlina"></a>
+
+<a href="http://sebastianmichaelis.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/s/e/sebastianmichaelis/thumb.jpg" class="friend" title="Sebastianmichaelis"></a>
+
+<a href="http://maya.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/m/a/maya/thumb.jpg" class="love" title="My Maya <3"></a>
+
+<a href="http://nimzayy.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/n/i/nimzayy/thumb.jpg" class="friend" title="Nimzayy"></a>
+
+<a href="http://monochromelevi.chatango.com" target="_blank"><img src="http://fp.chatango.com/profileimg/m/o/monochromelevi/thumb.jpg" class="friend" title="Monochromelevi"></a>
+
+</center>
+
+</div>
+
+<!--- Tab: Information [3] --->
+
+<div id="three" style="display:none">
+<div class="title"><i>Information</i></div>
+
+<center>
+<br/>
+<b>Hair color:</b> <i>Blonde</i>
+<br/><br>
+<b>Eye color:</b> <i>Blue</i>
+<br/><br>
+<b>Height:</b> <i>182 cm (5'11)</i>
+<br/><br>
+<b>Age:</b> <i>20 (21 August 1997)</i>
+<br/><br>
+<b>Nationality:</b> <i>Netherlands (Dutch)</i>
+</center>
+</div>
+
+<!--- Tab: Dancing [4] --->
+
+<div id="four" style="display:none">
+<div class="title"><i>Dance party</i></div>
+
+<center>
+<br/>
+<img src="https://i.gyazo.com/b11d4def3064c7e06fc8f1d8da454ba8.gif"  width="80%" height="80%">
+</center>
+</div>
